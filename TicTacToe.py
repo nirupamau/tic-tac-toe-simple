@@ -7,8 +7,8 @@ class TicTacToe:
         def __init__(self):
                 self.board = TicTacBoard.TicTacBoard()
                 self.engine = TicTacEngine.TicTacEngine()
-                self.player1 = Player.Player("Niru", 'X', "blue")
-                self.player2 = Player.Player("Asish", 'O', "red")
+                self.player1 = Player.Player("Player 1", 'X', "blue")
+                self.player2 = Player.Player("Player 2", 'O', "red")
                 self.isOver = False
                 self.startGame()
                 self.positionPl1 = 0
